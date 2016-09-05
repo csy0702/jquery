@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="zoomer.css" media="screen">
+<meta http-equiv="Content-Language" content="fr">
+<title>Zoomer </title>
+
+<style type="text/css">
+body {
+	font: Arial, Helvetica, sans-serif normal 10px;
+	margin: 0; padding: 0;
+}
+* {margin: 0; padding: 0;}
+#page{
+		margin:0 auto;
+		position:relative;
+		width:850px;
+		font-family:verdana;
+		font-size:12px;
+	}
+	#content{
+		width:100%;
+	}
+pre{
+	border:3px solid #ccc;
+	padding:5px;
+	font-size:12px;
+	font-family:arial;
+	}
+	.bold{font-weight:bold;}
+	.blue{color:blue;}
+	.red{color:red;}
+#footer{
+	margin-top:5px;
+	text-align:center;
+	width:100%;
+	height:auto;
+	padding:5px;
+	background-color:#ccc;
+	}
+ #logo,#foot { margin-left: 10px; }
+</style> 
+</head>
+
+<body>
+	<div id="page">
+	<center>
+	 
+	</center>
+	<br><br><br>
+		<div id="content">
+		
+		<div class="container">
+		
+			<ul class="thumb">
+				<li><a href="#"><img src="img/robots.jpg" alt="Robots like cameras"></a></li>
+				<li><a href="#"><img src="img/monster.jpg" alt="Monsters!"></a></li>
+				<li><a href="#"><img src="img/santa.jpg" alt="Santa down under"></a></li>
+				<li><a href="#"><img src="img/thumb6.jpg" alt="Sponguebob!"></a></li>
+				<li><a href="#"><img src="img/thumb7.jpg" alt="Star Wars"></a></li>
+				<li><a href="#"><img src="img/hulk.jpg" alt="Hulk Smash!"></a></li>
+				<li><a href="#"><img src="img/dino.png" alt="Dinosaur time"></a></li>
+				<li><a href="#"><img src="img/orange.jpg" alt="Orange car"></a></li>
+				<li><a href="#"><img src="img/alien.jpg" alt="Aliens!"></a></li>
+				<li><a href="#"><img src="img/supe.jpg" alt="It's Superman!"></a></li>
+                <li><a href="#"><img src="img/garfield.jpg" alt="Where's my lasagne?"></a></li>
+				<li><a href="#"><img src="img/bridge.jpg" alt="The bridge at Sunset"></a></li>
+				<li><a href="#"><img src="img/peanuts.jpg" alt="Peanuts!"></a></li>
+				<li><a href="#"><img src="img/thumb5.jpg" alt="1956 Yellow Car"></a></li>
+				<li><a href="#"><img src="img/thumb4.jpg" alt="Ooooh. Pretty"></a></li>
+				<li><a href="#"><img src="img/thumb3.jpg" alt="Lets build something"></a></li>
+				<li><a href="#"><img src="img/thumb2.jpg" alt="Puppy love"></a></li>
+				<li><a href="#"><img src="img/thumb1.jpg" alt="It's a Toy Story"></a></li>
+			</ul>
+			
+		</div>
+	</div>
+	</div>
+<script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript" src="zoomer.js"></script> 
+<script type="text/javascript">
+	$(function(){
+		$(".thumb li").zoomer();
+	})
+</script>
+
+</body>
+</html>
