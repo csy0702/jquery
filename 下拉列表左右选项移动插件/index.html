@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<script src="jquery-3.1.0.js"></script>
+	<script src="main.js"></script>
+	<style>
+			.box{
+				width: 450px;
+				height: 300px;
+				
+			}
+			.div1{
+				width: 200px;
+				float: left;
+			}
+			.div2{
+				width: 200px;
+				float: right;
+			}
+			.se{
+				width: 200px;
+				height: 250px;
+				border: none;
+				border: 1px solid black;
+			}
+			.se1{
+				width: 200px;
+				height: 250px;
+				border: none;
+				border: 1px solid black;
+			}
+			input{
+				background-color: lightcyan;
+			}
+	</style>
+	<body>
+		<div class="box">
+			<div class="div1">
+				<select multiple="multiple" class="se">
+					<option>选项1</option>
+					<option>选项2</option>
+					<option>选项3</option>
+					<option>选项4</option>
+					<option>选项5</option>
+					<option>选项6</option>
+					<option>选项7</option>
+					<option>选项8</option>
+				</select>
+				<input type="button" value="选中添加到右边" class="btn1"/>
+				<input type="button" value="全部添加到右边" class="btn2" />
+			</div>
+			<div class="div2">
+			<select multiple="multiple" class="se1">
+
+			</select>
+			<input type="button" value="删除选中右边并返回到左边" class="btn3" />
+			<input type="button" value="全部删除右边并返回到左边" class="btn4" />
+			</div>
+		</div>
+	</body>
+</html>
