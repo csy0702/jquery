@@ -1,0 +1,29 @@
+.box{
+	width: 1100px;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+.box img{
+	width: 100px;
+	height: 150px;
+	margin: 20px;
+}
+.mydiv{
+	position: absolute;
+	opacity: 0.1;
+	padding: 15px;
+}
+.mydiv img{
+	width: 100px;
+	height: 150px;
+}
+.mydiv span{
+	display: block;
+	background-image:url(img/closebox.png) ;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 17px;
+	left: -15px;
+}
